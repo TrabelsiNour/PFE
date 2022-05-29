@@ -1,0 +1,5 @@
+<h2 style = 'margin-top:  30px;'>This is the protected profile page</h2>
+
+<h2 *ngIf = 'this.protectedData?.data' >{{this.protectedData.data.userName}}</h2>
+
+<h2 *ngIf = 'this.protectedData?.data' >{{this.protectedData.data.userWebsite}}</h2>
